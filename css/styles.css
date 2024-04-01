@@ -559,6 +559,10 @@ gap: 48px 24px ;
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
+
+/* footer */
+
+
 .footer-background {
     background-color: #2E2F42;
     padding: 100px 0;
@@ -714,6 +718,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .icon-form-footer{
     margin-left: 16px;
 }
+
+/* form  */
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -1097,4 +1104,50 @@ gap: 8px;
     font-size: 16px;
 }
 
+/* footer */
+
+.footer-background {
+    
+    padding: 98px 0;
+    
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+
+}
+.text-footer{
+    margin-left: 0;
+}
+.container-form {
+    margin-left: 0;
+}
+.logo-container{
+    padding-left: 86px;
+}
+.social-media {
+    padding-left: 96px;
+}
+
+.icon-list-footer{
+    margin-left: 40px;
+}
+.form-footer {
+    margin-left: 106px;
+}
+.form-general{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.input-form-footer{
+    width: 288px;
+}
+.btc-form {
+    width: 165px;
+    height: 40px;
+    margin-left: 61px;
+}
 }
