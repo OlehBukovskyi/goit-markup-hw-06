@@ -692,7 +692,6 @@ align-items: center;
 .input-for::placeholder{
     color: #ffffff; }
 .btc-form {
-    margin-left: 24px;
     height: 40px; 
     min-width: 165px; 
     display: flex;
@@ -1149,5 +1148,13 @@ gap: 8px;
     width: 165px;
     height: 40px;
     margin-left: 61px;
+}
+.img-portfolio {
+    width: 288px;
+    height: 280px;
+}
+.icon-text-portfolio{
+    width: 288px;
+    
 }
 }
