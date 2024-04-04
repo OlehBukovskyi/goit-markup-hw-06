@@ -984,6 +984,12 @@ text-align: center;
         padding-left: 0;
         padding-right: 0;
     }
+
+    @media screen and  (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .section-one-background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/Mob-2x.jpg);
+        }
+    }
     /* mob menu */
     .list-main{
         display: none;
@@ -1170,6 +1176,12 @@ gap: 8px;
         padding-right: 0;
     }
 
+    @media screen and  (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .section-one-background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/Tab-2x.jpg);
+        }
+    }
+
     /* header */
     .menu-icon-mob{
         display: none;
@@ -1199,6 +1211,7 @@ gap: 8px;
     }
     .section-one-background {
         padding: 112px 0;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/Dark-bg-4.jpg);
     }
     .button-order-service {
       margin-top: 36px;
@@ -1234,17 +1247,24 @@ gap: 8px;
 }
 .our-team-background{
     padding-top: 96px;
-    padding-bottom: 96px;
+    padding-bottom: 32px;
 }
 .our-team-list{
-    display: flex;
+
+
     flex-wrap: wrap;
-    gap: 24px;
+    width: calc((100% - 24px)/2);
+        gap: 24px;
+        margin-bottom: 64px;
+   
 }
 .list-our-team{
-    display: flex;
+    margin-left: 108px;
+    margin-right: 108px;
+    display: inline-flex;
     flex-wrap: wrap;
-    gap: 24px;
+
+  
 }
 
 
@@ -1257,8 +1277,9 @@ gap: 8px;
 .list-portfolio {
     display: flex;
   flex-wrap: wrap;
-    gap: 24px
-    ;
+    gap: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 .list-portfolio-img{
     width: 356px;
@@ -1269,7 +1290,11 @@ gap: 8px;
 }
 .our-portfolio-p{
     font-size: 16px;
-}/* footer  */
+}
+
+
+
+/* footer  */
 
 .footer-background {
     
@@ -1280,7 +1305,7 @@ gap: 8px;
 .container-two {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 108px;
+    padding-left: 108px;
 }
 .footer-part-one {
     margin-right: 24px;
@@ -1292,4 +1317,20 @@ gap: 8px;
 .container-form {
     margin-left: 0;
 }
+}
+
+
+
+ /* desktop */
+
+@media screen and (min-width:1158px) {
+ /* header */
+    .menu-icon-mob{
+        display: none;
+    }
+    @media screen and  (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .section-one-background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/Desk-2x.jpg);
+        }
+    }
 }
