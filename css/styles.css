@@ -5,6 +5,7 @@ body {
 }
 img {
     display: block;
+    width: 100%;
 }
 a {
     text-decoration: none;
@@ -21,7 +22,7 @@ ul{
 }
 
 .container {
-        width: 1158px; 
+       max-width: 1158px; 
         padding-right: 15px;
         padding-left: 15px;
         margin: 0 auto;
@@ -130,13 +131,7 @@ align-items: center;
 .data-for-communicate:hover,
 .data-for-communicate:focus {
     color: #404BBF;
-font-family: "Roboto",sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
-transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .nav-container{
     display: flex;
@@ -390,6 +385,17 @@ gap: 24px;
     
 }
 
+.text-strategy{
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
 /*  sction 3 */
 .our-team-background { 
     background-color:   #f4f4fd;
@@ -403,11 +409,7 @@ gap: 24px;
 }
 
 
-.text-strategy{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .section-three-styles{
     color: #2E2F42;
 text-align: center;
@@ -429,7 +431,11 @@ margin-bottom: 72px;
 
 }
 .our-team-p {
-    line-height: 1.5;
+font-family: "Roboto",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 
@@ -438,7 +444,8 @@ margin-bottom: 72px;
     padding: 32px 0;
 }
 .our-team-three {
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+ font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -455,7 +462,16 @@ margin-bottom: 72px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.our-portfolio-name{
+    color:  #2E2F42;
+font-family: "Roboto",sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
 
+}
 .our-portfolio-style {
 
     color: #2e2f42;
@@ -662,7 +678,7 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-left: 24px;
+  
 }
 .form-general{
     display: flex;
@@ -979,10 +995,10 @@ text-align: center;
 
 @media screen and (min-width: 320px) and (max-width:767px) {
     .container {
-        width: 288px;
-        margin: 0 auto;
+        max-width: 288px;
         padding-left: 0;
         padding-right: 0;
+     
     }
 
     @media screen and  (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -1051,14 +1067,22 @@ text-align: center;
 
     .section-two-styles{
         font-size: 36px;
-        width: 288px;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
         text-align: center;
+        width: 288px;
         
     
     }
     
 .text-strategy{
-    display: flex;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+ display: flex;
 width: 288px;
 flex-direction: column;
 align-items: flex-start;
@@ -1074,6 +1098,21 @@ gap: 8px;
 .list-our-team {
     flex-direction: column;
     gap: 72px;
+    align-items: center;
+
+}
+.our-team-three {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
+}
+.our-team-p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
 }
 .icon-list-team {
     display: flex;
@@ -1101,12 +1140,19 @@ gap: 8px;
 .list-portfolio-img{
     width: 288px;
 }
-.section-two-styles{
-    font-size: 20px;
-    text-align: start;
+.our-portfolio-name{
+
+font-size: 20px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
+margin-bottom: 8px;
 }
 .our-portfolio-p{
-    font-size: 16px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
 }
 
 /* footer */
@@ -1155,10 +1201,7 @@ gap: 8px;
     height: 40px;
     margin-left: 61px;
 }
-.img-portfolio {
-    width: 288px;
-    height: 280px;
-}
+
 .icon-text-portfolio{
     width: 288px;
     
@@ -1170,10 +1213,8 @@ gap: 8px;
 @media screen and (min-width:768px) and (max-width:1157px) {
 
     .container {
-        width: 768px;
-        margin: 0 auto;
-        padding-left: 0;
-        padding-right: 0;
+        max-width: 768px;
+       
     }
 
     @media screen and  (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -1188,7 +1229,7 @@ gap: 8px;
     }
 
     .logo-header{
-        margin-left: 16px;
+        
         padding-top: 25.5px;
         padding-bottom: 25.5px;
        
@@ -1198,9 +1239,16 @@ gap: 8px;
     }
     .list-address{
         display: block;
-        margin-right: 16px;
-
+      
     }
+
+    .data-for-communicate{
+        font-size: 12px;
+        line-height: 24px;
+     
+    }
+    
+
 
     /* section 1 */
     .section-one {
@@ -1230,32 +1278,45 @@ gap: 8px;
 
 
 .section-two-list{
+   
+    gap:  72px 24px;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    align-items: center;
+
    
 }
 
 .section-two-styles{
-    font-size: 36px;
-    width: 288px;
-    text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-align: start;
 }
 .list-strategy {
-    width: 356px;
-    margin-left: 16px;
+   
+     width: calc((100% - 24px)/2); 
+    
 }
+.text-strategy {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+
+}
+
+/* section 3 */
+
+
 .our-team-background{
     padding-top: 96px;
-    padding-bottom: 32px;
+    padding-bottom: 96px;
 }
 .our-team-list{
-
-
     flex-wrap: wrap;
-    width: calc((100% - 24px)/2);
-        gap: 24px;
-        margin-bottom: 64px;
+    width: calc((100% - 24px)/2); 
    
 }
 .list-our-team{
@@ -1263,8 +1324,20 @@ gap: 8px;
     margin-right: 108px;
     display: inline-flex;
     flex-wrap: wrap;
-
-  
+    gap: 72px 24px;
+}
+.section-three-styles {
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+}
+.text-strategy {
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
 }
 
 
@@ -1277,20 +1350,37 @@ gap: 8px;
 .list-portfolio {
     display: flex;
   flex-wrap: wrap;
-    gap: 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+    gap: 72px 24px;
+   
+   
+    
 }
-.list-portfolio-img{
-    width: 356px;
+.list-portfolio-img {
+    width: calc((100% - 24px)/2); 
+    
 }
-.section-two-styles{
-    font-size: 20px;
-    text-align: start;
+
+.our-portfolio-name {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
 }
 .our-portfolio-p{
     font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
 }
+
+.our-team-three {
+  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px;
+}
+
 
 
 
